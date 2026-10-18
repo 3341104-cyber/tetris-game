@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>טטריס</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <h1>טטריס</h1>
+        <div class="score-box">
+          <span>ניקוד</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="score-box">
+          <span>שורות</span>
+          <strong id="lines">0</strong>
+        </div>
+        <button id="start-btn">התחל</button>
+      </div>
+
+      <canvas id="board" width="300" height="600" aria-label="משחק טטריס"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
