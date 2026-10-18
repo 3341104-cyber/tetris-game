@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tetris-game
+    runtime: static
+    staticPublishPath: ./
+    buildCommand: ""
